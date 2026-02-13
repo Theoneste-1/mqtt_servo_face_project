@@ -12,7 +12,7 @@ from datetime import datetime
 
 
 # CONFIGURATION - CHANGE THESE VALUES
-TEAM_ID = "BACK-BENCHERS"
+TEAM_ID = "Theoneste_Team_Year3A"
 MQTT_BROKER = "157.173.101.159"
 MQTT_PORT = 1883
 MQTT_TOPIC = f"vision/{TEAM_ID}/movement"

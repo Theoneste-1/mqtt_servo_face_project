@@ -2,6 +2,7 @@
 # ESP8266 Servo Controller - Face Tracking System
 # Based on Gabriel Baziramwabo's ESP8266 MQTT implementation
 
+import utils.session
 import time
 import network
 import machine
@@ -17,7 +18,7 @@ WIFI_PASS = "password123"
 MQTT_BROKER = "157.173.101.159"
 MQTT_PORT = 1883
 
-TEAM_ID = "BACK-BENCHERS"
+TEAM_ID = "Theoneste_Team_Year3A"
 TOPIC_MOVEMENT = f"vision/{TEAM_ID}/movement"
 TOPIC_HEARTBEAT = f"vision/{TEAM_ID}/heartbeat"
 
